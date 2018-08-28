@@ -9,7 +9,7 @@ import { Response } from '@angular/http';
 })
 
 export class AppComponent {
-  title = 'POC1';
+  title = 'MY First Change';
   newName = '';
   appName = this.serverService.getAppName();
 
