@@ -1,0 +1,9 @@
+<h1> {{ appName | async}}</h1>
+<input type="text" name = "newname" [(ngModel)]= "newName"/>
+<button (click) = "addName()" >Add New Name </button>
+<li *ngFor = "let eachname of namesList"> 
+    {{eachname.name}}
+    {{eachname.place}}
+</li>
+<button (click) = "onSave()">Save Name  </button>
+<button (click) = "onGetName()">Get Store Name </button>
