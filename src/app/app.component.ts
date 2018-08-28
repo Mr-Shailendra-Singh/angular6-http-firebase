@@ -28,6 +28,11 @@ export class AppComponent {
       name: "Singh",
       place: "Uttar Pradesh",
       id: this.generateId()
+    },
+      {
+      name: "Geet",
+      place: "Jharkhand",
+      id: this.generateId()
     }
   ];
 
