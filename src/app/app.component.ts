@@ -9,7 +9,7 @@ import { Response } from '@angular/http';
 })
 
 export class AppComponent {
-  title = 'POC1';
+  title = 'MY First Change';
   newName = '';
   appName = this.serverService.getAppName();
 
@@ -27,6 +27,11 @@ export class AppComponent {
     {
       name: "Singh",
       place: "Uttar Pradesh",
+      id: this.generateId()
+    },
+      {
+      name: "Geet",
+      place: "Jharkhand",
       id: this.generateId()
     }
   ];
